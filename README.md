@@ -31,7 +31,7 @@ This dataset had a total of 8523 rows and 12 columns of information. There were 
    - Decision Tree Model
    
  #### Average Item Sales by Type and Fat Content
-![sample image](Capture.png)  
+![Capture](https://user-images.githubusercontent.com/122565297/224843606-a74eef3e-0c32-43ee-b561-9f9a0e70d174.PNG) 
 
 ## Results
 - Comparing both the Decision Tree and Linear Regression models, the Decision Tree Model performed better overall. I utilized various regression metrics to evaluate and compare both models and the Decision Tree model had better results
