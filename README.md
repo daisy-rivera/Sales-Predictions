@@ -38,6 +38,16 @@ This dataset had a total of 8523 rows and 12 columns of information. There were 
 ![Capture2](https://user-images.githubusercontent.com/122565297/224844265-cc837f94-4593-40bf-8a87-d96bcef0915b.PNG)
 - SupermarketType3 clearly has the most sales. It would be useful to understand more what the differences are between the different types of supermarket outlets to disect further why these outlets are selling more on average than its counterparts.
 
+### Top 5 Most Important Features
+![5_most_important](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/f922d1b4-f2d2-4396-bfc9-824ae85d84e8)
+- These are the features that our model used the most.
+
+### Top 3 Coefficients
+- All of my coefficients were categorical items. The 3 largest coefficients I have are: OUtlet_Size_Medium, Outlet_Identifier_OUT019 and Outlet_Type_Supermarket Type3. Belonging to these categories will have the following changes to the target:
+  - Outlet_Size_Medium : 33577528470196481 
+  - Outlet_Identifier_OUT019 : 3137133190522628
+  - Outlet_Type_Supermarket Type3 : (-3068332354615559.5)
+
 ## Results
 - Comparing both the Decision Tree and Linear Regression models, the Decision Tree Model performed better overall. I utilized various regression metrics to evaluate and compare both models and the Decision Tree model had better results
 
