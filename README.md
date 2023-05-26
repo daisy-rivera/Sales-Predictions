@@ -61,7 +61,7 @@ This dataset had a total of 8523 rows and 12 columns of information. There were 
   - Outlet_Identifier_OUT010 was also a cetgorical feature. This feature however, had a negative impact on the overall sales the more it was selected.
 
 ## Results
-- Comparing both the Decision Tree and Linear Regression models, the Decision Tree Model performed better overall. I utilized various regression metrics to evaluate and compare both models and the Decision Tree model had better results
+- Comparing both the Decision Tree and Linear Regression models, the Decision Tree Model performed better overall. I utilized various regression metrics to evaluate and compare both models and the Decision Tree model had better results predicting future sales prices.
 
 ### For further information
 For any additional questions, please contact **daisy.dinny@hotmail.com**
