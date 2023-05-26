@@ -49,6 +49,17 @@ This dataset had a total of 8523 rows and 12 columns of information. There were 
   - Outlet_Identifier_OUT019 : 3137133190522628
   - Outlet_Type_Supermarket Type3 : (-3068332354615559.5)
 
+### Shap Feature Summary (BAR)
+![bar_shap_summary](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/c3c59cba-b196-4170-ad18-4c9d88a464a8)
+- Comparing the feature importances to the shap values above, I show that I have the same exact Top 5 features only in different orders. The Item_MRP is the biggest contributor to the predictions by far. Also, the Outlet_Type_Supermarket Type1 is the 5th feature on both graphs.
+
+### Shap Feature Summary (Dot)
+![dot_shap_summary](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/3cb6a6f4-b6ff-4f27-98a2-2b74ce435dca)
+- The Shap Summary above shows that our 3 most important features are Item_MRP, Outlet_Type_Supermarket Type3 and Outlet_Identifier_OUT010.
+  - Item_MRP had the largest effect on the model's predictions. This is an integer feature so looking at the graph I can see that the higher the Item_MRP was, the more positively higher the predicted price was. The lower the Item_MRP was the more negatively lower the predicted sales were.
+  - Outlet_Type_Supermarket Type3 was a categorical feature. Based on the graph above when this category was selected it had a high positive impact on the overall sales.
+  - Outlet_Identifier_OUT010 was also a cetgorical feature. This feature however, had a negative impact on the overall sales the more it was selected.
+
 ## Results
 - Comparing both the Decision Tree and Linear Regression models, the Decision Tree Model performed better overall. I utilized various regression metrics to evaluate and compare both models and the Decision Tree model had better results
 
