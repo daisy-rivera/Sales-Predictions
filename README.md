@@ -43,6 +43,7 @@ This dataset had a total of 8523 rows and 12 columns of information. There were 
 - These are the features that our model used the most.
 
 ### Top 3 Coefficients
+![3_largest_coeffs](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/3858377f-b03b-4209-ab1b-eb077fc8c200)
 - All of my coefficients were categorical items. The 3 largest coefficients I have are: OUtlet_Size_Medium, Outlet_Identifier_OUT019 and Outlet_Type_Supermarket Type3. Belonging to these categories will have the following changes to the target:
   - Outlet_Size_Medium : 33577528470196481 
   - Outlet_Identifier_OUT019 : 3137133190522628
