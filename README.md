@@ -60,6 +60,11 @@ This dataset had a total of 8523 rows and 12 columns of information. There were 
   - Outlet_Type_Supermarket Type3 was a categorical feature. Based on the graph above when this category was selected it had a high positive impact on the overall sales.
   - Outlet_Identifier_OUT010 was also a cetgorical feature. This feature however, had a negative impact on the overall sales the more it was selected.
 
+### Local Explanations
+![Local_Importance_Supermarket_Type3](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/f150851d-d603-498f-a5cb-67009d1e157b)
+
+- The plot above shows a single example of a sales prediction. I chose to evaluate a random sample from Supermarket Type3 since this Supermarket has the highest average sales. We can see that this sample was impacted positively by the Outlet_Type_Supermarket Type3 however, the Item_MPR impacted the sale negatively. This random item happened to be a fruit and vegetable item which may be why it's price was low. This sale falls below the base value of 2154.
+
 ## Results
 - Comparing both the Decision Tree and Linear Regression models, the Decision Tree Model performed better overall. I utilized various regression metrics to evaluate and compare both models and the Decision Tree model had better results predicting future sales prices.
 
