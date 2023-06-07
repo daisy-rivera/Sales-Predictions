@@ -65,6 +65,10 @@ This dataset had a total of 8523 rows and 12 columns of information. There were 
 ![Lime_SupermarketType3](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/dd61e15a-d369-4ddd-80d4-6d628c623b2d)
 - The plots above show a single example of a random sales prediction. I chose to evaluate a random sample from Supermarket Type3 since this Supermarket has the highest average sales. We can see that this sample was impacted positively by the Outlet_Type_Supermarket Type3 however, the Item_MPR impacted the sale negatively. This random item happened to be a fruit and vegetable item which may be why it's price was low. This sale falls below the base value of 2154.
 
+![Local_importance_starch_item](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/0f96ea55-66d7-4d7b-9a02-a6c03f1c85ad)
+![Lime_starch_food](https://github.com/daisy-rivera/Sales-Predictions/assets/122565297/f93af6aa-b2aa-42d0-87c1-1255b44d6da0)
+- The plots above show a single random sales prediction for a starchy food item. I chose to evaluate a starchy food item since this item had the highest average sales. We can see from above the plots that the sale prediction was significantly impacted positively by the Outlet_Type_Supermarket Type3, Item_MRP, Outlet_Identifier_OUT019 and Outlet_Identifier_OUT010. This sale prediction is way above the base value of 2154.
+
 ## Results
 - Comparing both the Decision Tree and Linear Regression models, the Decision Tree Model performed better overall. I utilized various regression metrics to evaluate and compare both models and the Decision Tree model had better results predicting future sales prices.
 
